@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1654699200264,
-  "repoUrl": "https://github.com/sycamore-rs/sycamore",
+  "lastUpdate": 1668051041635,
+  "repoUrl": "https://github.com/arctic-hen7/sycamore",
   "entries": {
     "Benchmark": [
       {
@@ -20411,6 +20411,66 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 63309,
             "range": "± 90",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5d49777b4a66fb5730c40898fd2ee8cde15bcdc3",
+          "message": "Simplify the TodoMVC example code (#526)",
+          "timestamp": "2022-11-05T22:59:06Z",
+          "tree_id": "074a08150b2632ed8fe8e673ec4f229445203f51",
+          "url": "https://github.com/arctic-hen7/sycamore/commit/5d49777b4a66fb5730c40898fd2ee8cde15bcdc3"
+        },
+        "date": 1668051040493,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 39600,
+            "range": "± 947",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 225131,
+            "range": "± 6779",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 53820,
+            "range": "± 1943",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 68543,
+            "range": "± 1147",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1524,
+            "range": "± 60",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 77421,
+            "range": "± 1277",
             "unit": "ns/iter"
           }
         ]
